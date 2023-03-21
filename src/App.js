@@ -1,5 +1,6 @@
 import Home from './assets/components/Home';
 import NavBar from './assets/components/NavBar';
+import SocialLinks from './assets/components/SocialLinks';
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 		<div>
 			<NavBar />
 			<Home />
-    
+    <SocialLinks />
 		</div>
 	);
 }
