@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily:{
-      signature: ["Fredericka the Great"]
+      signature: ["Bad Script"],
     }
   },
   plugins: [],

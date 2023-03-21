@@ -1,9 +1,11 @@
-import React from 'react'
-import {FaBars, FaExternalLinkSquareAlt, FaTimes } from 'react-icons/fa';
+import React, { useState } from 'react'
+import {FaBars, FaTimes } from 'react-icons/fa';
 
 const NavBar = () => {
 
-const link = [
+    const [nav, setNav] = useState(false);
+
+const links = [
     {
         id: 1,
         link: 'home'
@@ -26,7 +28,6 @@ const link = [
     },
 ];
 
-
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
         <div>
@@ -34,21 +35,19 @@ const link = [
         </div>
 
         <ul className='hidden md:flex'>
-
 {links.map(({id, link }) => (
 
     <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200'>
 
        {link} 
     </li>
-
 ))}
+</ul>
+</div>
 
 
-        </ul>
-        
-    </div>
-  )
-}
 
-export default NavBar
+  );
+};
+
+export default NavBar;
