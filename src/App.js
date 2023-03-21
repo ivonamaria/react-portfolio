@@ -1,8 +1,9 @@
-import About from './assets/components/About';
-import Home from './assets/components/Home';
-import NavBar from './assets/components/NavBar';
-import Projects from './assets/components/Projects';
-import SocialLinks from './assets/components/SocialLinks';
+import About from './components/About';
+import Experience from './components/Experience';
+import Home from './components/Home';
+import NavBar from './components/NavBar';
+import Projects from './components/Projects';
+import SocialLinks from './components/SocialLinks';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 			<Home />
 			<About />
 			<Projects />
+			<Experience />
 			
     <SocialLinks />
 		</div>
