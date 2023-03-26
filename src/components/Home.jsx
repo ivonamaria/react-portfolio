@@ -1,5 +1,5 @@
 import React from 'react'
-import heroimg from '../heroimg.png';
+import heroimg from '../assets/portfolio/img/heroimg.png';
 import { MdOutlineArrowForward } from 'react-icons/md';
 
 const Home = () => {
@@ -22,4 +22,4 @@ const Home = () => {
   );
 };
 
-export default Home
+export default Home;
