@@ -35,11 +35,11 @@ const Projects = () => {
   ];
 
   return (
-    <div name="projects" className="bg-gradient-to-b from-black to-indigo-900 w-full text-white md:h-screen">
+    <div name="projects" className="bg-gradient-to-b from-black to-orange-900 w-full text-white md:h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">PROJECTS</p>
-          <p className="py-6">Check out my portfolio right here</p>
+          <p className="text-4xl font-bold inline border-b-4 border-black">PROJECTS</p>
+          <p className="py-6">Check out my portfolio</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
