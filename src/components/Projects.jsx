@@ -38,7 +38,8 @@ const Projects = () => {
     <div name="projects" className="bg-gradient-to-b from-black to-orange-900 w-full text-white md:h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-black">PROJECTS</p>
+        <h1 className="text-4xl font-bold mb-6">Experience</h1>
+
           <p className="py-6">Check out my portfolio</p>
         </div>
 
