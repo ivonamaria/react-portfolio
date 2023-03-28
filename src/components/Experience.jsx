@@ -1,4 +1,5 @@
-import React from "react";
+
+  import React from "react";
 
 const SkillBar = () => {
   const skills = [
@@ -13,6 +14,7 @@ const SkillBar = () => {
 
   return (
     <div name="home" className="h-screen w-full bg-gradient-to-b from-orange-900 bg-black text-white flex flex-col justify-center items-center">
+    <h1 className="text-3xl font-bold uppercase mb-8 ml-8 inline border-b-4 border-gray-500">Experience</h1>
       {skills.map((skill, index) => (
         <div key={skill.name} className="w-full py-2">
           <p className="text-lg font-bold">{skill.name}</p>
@@ -29,3 +31,4 @@ const SkillBar = () => {
 };
 
 export default SkillBar;
+
