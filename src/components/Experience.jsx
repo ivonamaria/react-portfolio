@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const SkillBar = () => {
+const Experience = () => {
   const skills = [
     { name: "HTML", level: 98 },
     { name: "CSS", level: 85 },
@@ -13,7 +13,7 @@ const SkillBar = () => {
   const colors = ["bg-blue-900", "bg-green-900", "bg-yellow-900", "bg-red-900", "bg-purple-900"];
 
   return (
-    <div name="home" className="h-screen w-full bg-gradient-to-b from-orange-900 bg-black text-white flex flex-col justify-center items-center">
+    <div name="home" className="h-screen w-full bg-gradient-to-b from-gray-700 bg-black text-white flex flex-col justify-center items-center">
     <h1 className="text-3xl font-bold uppercase mb-8 ml-8 inline border-b-4 border-gray-500">Experience</h1>
       {skills.map((skill, index) => (
         <div key={skill.name} className="w-full py-2">
@@ -30,5 +30,5 @@ const SkillBar = () => {
   );
 };
 
-export default SkillBar;
+export default Experience;
 
