@@ -15,6 +15,22 @@ Link for [GitHub Repository](https://github.com/ivonamaria/react-portfolio).
 
 ## Screenshots
 
+![alt text](./screenshots/Screenshot%202023-03-30%20at%2022.57.59.png)
+![alt text](./screenshots/Screenshot%202023-03-30%20at%2022.58.10.png)
+![alt text](./screenshots/Screenshot%202023-03-30%20at%2022.58.19.png)
 
+##
+
+YouTube tutorials
+
+Stackoverflow
+
+1:1 TA sessions
+
+AskBCS Learning Assistant
+
+## License
+
+N/A
 
 
