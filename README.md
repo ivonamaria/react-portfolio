@@ -19,7 +19,7 @@ Link for [GitHub Repository](https://github.com/ivonamaria/react-portfolio).
 ![alt text](./screenshots/Screenshot%202023-03-30%20at%2022.58.10.png)
 ![alt text](./screenshots/Screenshot%202023-03-30%20at%2022.58.19.png)
 
-##
+## Credits
 
 YouTube tutorials
 
